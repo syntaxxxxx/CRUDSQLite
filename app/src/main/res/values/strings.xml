@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BiodataSqlite</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_pet_name">Nama</string>
+    <string name="hint_pet_breed">Umur</string>
+    <string name="category_gender">Gender</string>
+    <string name="category_measurement">Berat Badan</string>
+    <string name="hint_pet_weight">Weight</string>
+    <string name="unit_pet_weight">kg</string>
+    <string name="identitas_diri_sederhana">Identitas Diri Sederhana</string>
+    <string name="overview">Overview</string>
+    <string name="date">date</string>
+    <string name="title">nama</string>
+    <string name="description">umur</string>
+    <string name="berat_badan">berat badan</string>
+    <string name="umur">Umur</string>
+    <string name="submit">submit</string>
+</resources>
