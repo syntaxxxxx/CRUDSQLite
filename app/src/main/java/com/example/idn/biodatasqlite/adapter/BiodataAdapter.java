@@ -91,16 +91,16 @@ public class BiodataAdapter extends RecyclerView.Adapter<BiodataAdapter.ViewHold
         TextView tvDate, tvNama, tvUmur, tvGender, tvWeight;
         CardView cvBiodata;
 
-        public ViewHolder(View v) {
-            super(v);
+        public ViewHolder(View view) {
+            super(view);
 
             // hubungkan dengan id yang ada pada item_biodata.xml
-            tvDate = v.findViewById(R.id.tv_item_date);
-            tvNama = v.findViewById(R.id.tv_item_nama);
-            tvUmur = v.findViewById(R.id.tv_item_umur);
-            tvGender = v.findViewById(R.id.tv_item_gender);
-            tvWeight = v.findViewById(R.id.tv_item_weight);
-            cvBiodata = v.findViewById(R.id.cv_biodata);
+            tvDate = view.findViewById(R.id.tv_item_date);
+            tvNama = view.findViewById(R.id.tv_item_nama);
+            tvUmur = view.findViewById(R.id.tv_item_umur);
+            tvGender = view.findViewById(R.id.tv_item_gender);
+            tvWeight = view.findViewById(R.id.tv_item_weight);
+            cvBiodata = view.findViewById(R.id.cv_biodata);
 
         }
     }
